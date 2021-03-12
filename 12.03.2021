@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+</head>
+
+<body>
+
+<form method="post" enctype="text/plain" action="index.php">
+
+<fieldset style="width:50px;"><legend>Dane osobowe</legend>
+
+<table><tr><td>Imię:</td><td><input type="text"></td></tr>
+
+<tr><td>Nazwisko</td><td><input type="text"></td></tr>
+
+<tr><td>Data urodzenia:</td><td><input type="date"></td></tr>
+
+<tr><td>Miejsce urodzenia:</td><td><input type="text"></td></tr>
+
+</table>
+
+</fieldset>
+
+<fieldset style="width:500px;"><legend>Pozostałe informacje</legend>
+
+<table><tr><td>Wykształcenie:</td><td><input type="radio" name="Wykształcenie">podstawowe<input type="radio" name="Wykształcenie">średnie<input type="radio" name="Wykształcenie">wyższe</td></tr>
+
+<tr><td>Zawód wykonywany:</td><td><input type="text"></td></tr>
+
+<tr><td>Dodatkowe umiejętności:</td><td><textarea rows="9"></textarea></td></tr>
+
+</table>
+
+</fieldset>
+
+<input type="submit" value="Wyślij">
+
+</form>
+
+</body>
+
+</html>
